@@ -1,4 +1,4 @@
-jSpringBot Sample HTTP
+jSpringBot Sample Office
 =======
 
 ### Introduction
