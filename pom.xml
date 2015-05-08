@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jspringbot</groupId>
+    <artifactId>jspringbot-base</artifactId>
+    <version>1.3</version>
+  </parent>
+
+  <artifactId>sample-office</artifactId>
+  <name>sample-office</name>
+
+  <build>
+    <testResources>
+      <testResource>
+        <directory>src/test/resources</directory>
+        <filtering>true</filtering>
+        <includes>
+          <include>**/*.properties</include>
+          <include>**/*.xml</include>
+        </includes>
+      </testResource>
+      <testResource>
+        <directory>src/test/resources</directory>
+        <filtering>false</filtering>
+        <includes>
+          <include>**/*.doc</include>
+          <include>**/*.docx</include>
+        </includes>
+      </testResource>
+    </testResources>
+
+    <plugins>
+      <plugin>
+        <groupId>org.jspringbot</groupId>
+        <artifactId>jspringbot-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>integration-test</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <variables>
+                <variable>DEST_DIR:${project.build.directory}/robotframework-reports</variable>
+              </variables>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jspringbot</groupId>
+      <artifactId>jspringbot-selenium</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jspringbot</groupId>
+      <artifactId>jspringbot-office</artifactId>
+    </dependency>
+  </dependencies>
+</project>
