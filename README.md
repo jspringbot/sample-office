@@ -15,10 +15,6 @@ Initial Run to fetch all dependencies:
 3. View the generated report and logs from browser.
 4. The result word document should be in `target/roborframework-reports/result.doc`.
 
-## Author
-
-[Alvin R. de Leon](https://github.com/alvinrdeleon/).
-
 ## Copyright and license
 
 Copyright 2015 JSpringBot
