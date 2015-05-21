@@ -11,7 +11,8 @@ Word Templates
     Click Button                    css=#artist_submit
     Wait For Element                css=#robot-library-keywords
     ${exhibit1}=                    Element Capture Screenshot  css=#robot-library-keywords
-# start updating the word template
+
+    # start updating the word template
     Word Open File                  classpath:templates/template.doc
     Word Replace Text               @caseId     210004146651
     Word Replace Text               @date       March 2, 2015
