@@ -7,5 +7,5 @@
 
   <import resource="classpath:spring/spring-selenium-firefox.xml"/>
   <import resource="classpath:spring/spring-office.xml"/>
-
+  <import resource="classpath:spring/spring-prettyprint.xml"/>
 </beans>

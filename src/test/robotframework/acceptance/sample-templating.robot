@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../selenium-resources.txt
+Resource    ../selenium-resources.robot
 
 *** Test Cases ***
 Word Templates
