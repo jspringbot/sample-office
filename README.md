@@ -1,4 +1,4 @@
-jSpringBot Sample HTTP
+jSpringBot Sample Office
 =======
 
 ### Introduction
@@ -10,16 +10,15 @@ and put it in a template word document and save as a new file.
 
 Initial Run to fetch all dependencies:
 
-1. Install Maven 3 and JDK 6
-2. Execute the following command to run test. `mvn clean integration-test`
-3. View the generated report and logs from browser.
-4. The result word document should be in `target/roborframework-reports/result.doc`.
+- Install Maven 3 and JDK 6
+- Execute the following command to run test. 
+```
+mvn clean integration-test
+``` 
+- View the generated report and logs from browser.
+- The result word document should be in `target/roborframework-reports/result.doc`.
 
-## Author
-
-[Alvin R. de Leon](https://github.com/alvinrdeleon/).
-
-## Copyright and license
+### Copyright and license
 
 Copyright 2015 JSpringBot
 
