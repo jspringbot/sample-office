@@ -7,7 +7,7 @@ Word Templates
     Navigate To                     http://jspringbot.org/
     ${exhibit2}=                    Element Capture Screenshot  xpath=/html/body/div[2]/div[2]/div[1]/div/div[1]
     Click Link                      css=#search-menu a
-    Input Text                      css=#artist_search      Log\n
+    Input Text                      css=#artist_search          Log\n
     Click Button                    css=#artist_submit
     Wait For Element                css=#robot-library-keywords
     ${exhibit1}=                    Element Capture Screenshot  css=#robot-library-keywords
