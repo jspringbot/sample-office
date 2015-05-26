@@ -3,7 +3,6 @@ Resource    ../common-resources.robot
 
 
 *** Variables ***
-${URL}                      http://jspringbot.org/
 ${CASE_ID_REPLACEABLE}      @caseId
 ${DATE_REPLACEABLE}         @date
 ${EXHIBIT_1_REPLACEABLE}    @exhibit1

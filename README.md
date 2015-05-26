@@ -3,10 +3,21 @@ jSpringBot Sample Office
 
 ### Introduction
 
-This project demonstrate how to use the `jspringbot-office` library. This sample project shows:
-- How you can capture web page sections as image.
-- Replace it in a template word document.
-- And save as a new file.
+This project demonstrate how to use the `jspringbot-office` library. 
+
+This sample project shows:
+
+- Word Creation
+    - Capture image from web page
+    - insert captured image
+    - insert text
+    - insert hyper link
+    - and save to a file
+
+- Word Templates
+    - How you can capture web page sections as image.
+    - Replace it in a template word document.
+    - And save as a new file
 
 ### Quick Start
 
@@ -20,9 +31,10 @@ Initial run will fetch all dependencies.
 mvn clean integration-test
 ``` 
 - From the console you'll be able to see the run overview. 
-- Check out the result saved word document.
+- Check out the saved word documents.
 ```
 $/target/robotframework-reports/result.doc
+$/target/robotframework-reports/created.doc
 ```
 - To view the details, take a look at the generated `Report` and `Logs` from the browser.
 ```

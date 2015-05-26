@@ -1,6 +1,9 @@
 *** Settings ***
 Library     JSpringBotGlobal
 
+*** Variables ***
+${URL}                      http://jspringbot.org/
+
 *** Keywords ***
 Wait For Element
     [Arguments]                 ${locator}
