@@ -3,8 +3,10 @@ jSpringBot Sample Office
 
 ### Introduction
 
-This project demonstrate how to use the jspringbot-office library. This shows how you can capture web page sections as image
-and put it in a template word document and save as a new file.
+This project demonstrate how to use the jspringbot-office library. This sample project shows:
+- How you can capture web page sections as image.
+- Replace it in a template word document.
+- And save as a new file.
 
 ### Quick Start
 
