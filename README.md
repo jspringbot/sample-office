@@ -20,10 +20,12 @@ Initial run will fetch all dependencies.
 mvn clean integration-test
 ``` 
 - From the console you'll be able to see the run overview. 
+- Check out the result saved word document.
+```
+$/target/robotframework-reports/result.doc
+```
 - To view the details, take a look at the generated `Report` and `Logs` from the browser.
 ```
-Output:  $/target/robotframework-reports/output.xml
-XUnit:   $/target/robotframework-reports/TEST-acceptance.xml
 Log:     $/target/robotframework-reports/log.html
 Report:  $/target/robotframework-reports/report.html
 ```
