@@ -3,7 +3,7 @@ jSpringBot Sample Office
 
 ### Introduction
 
-This project demonstrate how to use the jspringbot-office library. This sample project shows:
+This project demonstrate how to use the `jspringbot-office` library. This sample project shows:
 - How you can capture web page sections as image.
 - Replace it in a template word document.
 - And save as a new file.
@@ -32,6 +32,6 @@ Report:  $/target/robotframework-reports/report.html
 
 ### Copyright and license
 
-Copyright 2015 JSpringBot
+Copyright 2015 jSpringBot
 
 Code licensed under [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0).
