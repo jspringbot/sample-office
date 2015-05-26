@@ -8,15 +8,23 @@ and put it in a template word document and save as a new file.
 
 ### Quick Start
 
-Initial Run to fetch all dependencies:
+Please follow the instructions to execute the test. 
+Initial run will fetch all dependencies.
 
-- Install Maven 3 and JDK 6
-- Execute the following command to run test. 
+- Install `Maven 3` and `JDK 6` or up.
+- Ensure to have the latest `Firefox` and `Chrome` browsers.
+- Execute the following command to run test.
 ```
 mvn clean integration-test
 ``` 
-- View the generated report and logs from browser.
-- The result word document should be in `target/roborframework-reports/result.doc`.
+- From the console you'll be able to see the run overview. 
+- To view the details, take a look at the generated `Report` and `Logs` from the browser.
+```
+Output:  $/target/robotframework-reports/output.xml
+XUnit:   $/target/robotframework-reports/TEST-acceptance.xml
+Log:     $/target/robotframework-reports/log.html
+Report:  $/target/robotframework-reports/report.html
+```
 
 ### Copyright and license
 
