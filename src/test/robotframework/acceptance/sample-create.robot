@@ -7,7 +7,7 @@ Word Creation
     [Tags]  word-create
     # capture an image
     Navigate To                     ${URL}
-    ${image}=                       Element Capture Screenshot  xpath=/html/body/div[2]/div[2]/div[1]/div/div[1]
+    ${image}=                       Element Capture Screenshot  css=#container > div.row.about > div.span4
 
     # start creating doc
     Word Create        

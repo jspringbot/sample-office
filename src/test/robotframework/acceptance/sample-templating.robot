@@ -15,7 +15,7 @@ Word Templates
 
     # capture the exhibit2 image
     Navigate To                     ${URL}
-    ${exhibit2}=                    Element Capture Screenshot  xpath=/html/body/div[2]/div[2]/div[1]/div/div[1]
+    ${exhibit2}=                    Element Capture Screenshot  css=#container > div.hero-unit
 
     # capture the exhibit1 image
     Click Link                      css=#search-menu a
